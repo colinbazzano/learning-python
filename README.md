@@ -24,3 +24,7 @@ Within the /src you will find
 ### functional
 
     Python is a powerful OOP language, though it can also be used in a more functional manner of programming.
+
+# Other useful things:
+
+    iterable: under the hood, it has the __iter__ function, and can be looped through
