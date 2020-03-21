@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7f7606f08e0544d8d012ef4d097dabdd6df6843a28793eb6551245d4b2db4242"
+            "sha256": "8dc5e6473a06a64aa91be08d93813d6cb982142b9ec05b8cbf76c2bdf3d0e823"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,6 +15,15 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "pyjokes": {
+            "hashes": [
+                "sha256:08860eedb78cbfa4618243c8db088f21c39823ece1fdaf0133e52d9c56e981a5",
+                "sha256:70b6125186dee5845038505cd16b5e09250da46c730e36b44ffd870e3c81aaaa"
+            ],
+            "index": "pypi",
+            "version": "==0.6.0"
+        }
+    },
     "develop": {}
 }
