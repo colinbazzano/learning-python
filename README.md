@@ -1,4 +1,4 @@
-# learning-python
+# A Hub for things related to Python
 
 ## Four Pillars of OOP:
 
@@ -7,7 +7,7 @@
 - Inheritance
 - Polymorphism
 
-Within the /src you will find
+## Folders found in /src:
 
 ### classes
 
