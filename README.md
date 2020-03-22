@@ -36,6 +36,8 @@ Within the /src you will find
     * helpful: python3 -m unittest - allows you to run all tests in the files
     * adding -v, which stands for verbose, will give more information about each test
 
+    in the sys folder, you will find more testing for a random integer guessing game
+
 # Other useful things:
 
     iterable: under the hood, it has the __iter__ function, and can be looped through
