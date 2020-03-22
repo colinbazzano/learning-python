@@ -29,6 +29,13 @@ Within the /src you will find
 
     a great way to solve some problems using generators that are a different approach to what you'd normally see
 
+### testing
+
+    testing your code is essential, and this covers some ways you can test your code and improve your code to cover
+    edge cases.
+    * helpful: python3 -m unittest - allows you to run all tests in the files
+    * adding -v, which stands for verbose, will give more information about each test
+
 # Other useful things:
 
     iterable: under the hood, it has the __iter__ function, and can be looped through

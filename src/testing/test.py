@@ -10,6 +10,9 @@ from main import do_stuff
 
 
 class TestMain(unittest.TestCase):
+    def setUp(self):
+        print('about to run a function')
+
     def test_do_stuff(self):
         test_param = 10
         result = do_stuff(test_param)
@@ -38,6 +41,10 @@ class TestMain(unittest.TestCase):
         # below is the result of the function when passing the above param
         result = do_stuff(test_param)
         self.assertEqual(result, 'please enter number higher than 0')
+
+    # similar to clean up after each in JS testing
+    def tearDown(self):
+        print('cleaning up')
 
 
 # run this file if it is the main - the main file being run
